@@ -1,5 +1,7 @@
 import React from "react";
 
+export const dynamic = "force-dynamic";
+
 import "./styles.css";
 const timestamp = new Date().toLocaleString();
 function RootLayout({ children }) {
